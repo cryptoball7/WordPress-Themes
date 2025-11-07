@@ -1,0 +1,10 @@
+/* Small complementary CSS to keep theme neat */
+
+/* Respect user content */
+.entry-content img{max-width:100%;height:auto}
+
+button, .cta{cursor:pointer}
+
+/* Simple utilities */
+.text-center{text-align:center}
+.muted{color:var(--muted)}

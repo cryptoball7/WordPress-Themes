@@ -1,0 +1,11 @@
+/* Additional component styles kept minimal to avoid duplication with style.css */
+.site-nav{display:flex;justify-content:space-between;align-items:center;padding:1rem 0}
+.menu{list-style:none;display:flex;gap:1rem;margin:0;padding:0}
+.menu a{text-decoration:none;color:inherit}
+.container{max-width:1200px;margin:0 auto;padding:0 1rem}
+.card h3{margin-top:0}
+.button{display:inline-block;padding:.5rem .75rem;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none}
+
+=== assets/media/README.md ===
+Place your hero video at assets/media/launch-hero.mp4 (ideally mp4 + webm for compatibility). If you prefer image fallback, replace <video> with <img> in header.php.
+
